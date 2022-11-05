@@ -10,19 +10,64 @@
     }
 }
 
-@media (min-width: 800px) and (max-width: 1000px) {
+@media (min-width: 890px) and (max-width: 1000px) {
     #imgRaizProblemas {
         width: 500px;
         position: absolute;
         z-index: 1;
-        top: 30%;
-        left: 50%;
-        translate: -50%;
-        transform: translateY(-30%);
+        top: 35%;
+        left: 25%;
+        translate: -25%;
+        transform: translateY(-35%);
     }
 }
 
-@media(max-width: 800px) {
+@media(max-width: 991px) {
+    .navbar-nav {
+        margin-left: 53%;
+        margin-top: 20px;
+    }
+
+    .navbar {
+        height: auto;
+    }
+}
+
+@media (min-width: 710px) and (max-width: 890px) {
+    #imgRaizProblemas {
+        width: 300px;
+        position: absolute;
+        z-index: 1;
+        top: 35%;
+        left: 50%;
+        translate: -50%;
+        transform: translateY(-35%);
+    }
+
+    #rootTecnologies{
+        height: 25px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 710px) {
+    #imgRaizProblemas {
+        width: 300px;
+        position: absolute;
+        z-index: 1;
+        top: 15%;
+        left: 25%;
+        translate: -25%;
+        transform: translateY(-15%);
+    }
+
+    #rootTecnologies{
+        height: 25px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 600px) {
     #imgRaizProblemas {
         width: 300px;
         position: absolute;
@@ -36,16 +81,5 @@
     #rootTecnologies{
         height: 25px;
         margin-left: 20px;
-    }
-}
-
-@media(max-width: 991px) {
-    .navbar-nav {
-        margin-left: 53%;
-        margin-top: 20px;
-    }
-
-    .navbar {
-        height: auto;
     }
 }
