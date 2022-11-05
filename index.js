@@ -21,7 +21,7 @@ function clickMudarCor() {
 			document.getElementById('navbar').style.backgroundColor = '#1B2029'
 		}
 	}
-	else{
+	else {
 		document.getElementById('navbar').style.backgroundColor = '#1B2029'
 	}
 }
