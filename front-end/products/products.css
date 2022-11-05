@@ -1,1 +1,10 @@
 @import url('../global/global.css');
+
+#imgRaizProblemas {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 50%;
+    translate: -50%;
+    transform: translateY(-40%);
+}
