@@ -1,0 +1,51 @@
+@media (min-width: 1000px) and (max-width: 1400px) {
+    #imgRaizProblemas {
+        width: 500px;
+        position: absolute;
+        z-index: 1;
+        top: 40%;
+        left: 50%;
+        translate: -50%;
+        transform: translateY(-40%);
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    #imgRaizProblemas {
+        width: 500px;
+        position: absolute;
+        z-index: 1;
+        top: 30%;
+        left: 50%;
+        translate: -50%;
+        transform: translateY(-30%);
+    }
+}
+
+@media(max-width: 800px) {
+    #imgRaizProblemas {
+        width: 300px;
+        position: absolute;
+        z-index: 1;
+        top: 10%;
+        left: 50%;
+        translate: -50%;
+        transform: translateY(-10%);
+    }
+
+    #rootTecnologies{
+        height: 25px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 991px) {
+    .navbar-nav {
+        margin-left: 53%;
+        margin-top: 20px;
+    }
+
+    .navbar {
+        height: auto;
+    }
+}
