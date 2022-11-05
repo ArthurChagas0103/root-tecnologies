@@ -22,7 +22,7 @@
     }
 }
 
-@media (min-width: 200px) and (max-width: 800px) {
+@media(max-width: 800px) {
     #imgRaizProblemas {
         width: 300px;
         position: absolute;
