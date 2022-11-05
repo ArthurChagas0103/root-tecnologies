@@ -13,3 +13,45 @@ body{
 a {
     text-decoration: none;
 }
+
+.nav-link{
+    color: #DAC072 !important; 
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color: #e6d4ae !important;
+}
+
+.navbar-nav{
+    margin-left: 100%;
+    translate: -100%;
+}
+
+.nav-item{
+    margin-right: 54px;
+}
+
+.active{
+    font-weight: 600 !important;
+    color: #E8CB8B !important;
+}
+
+.navbar{
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed !important;
+    z-index: 2 !important;
+    width: 100%;
+    border-bottom: rgb(39, 39, 39) 1px solid;
+}
+
+#rootTecnologies{
+    margin-left: 50px;
+    height: 40px;
+}
+
+.sombraImagem{
+    filter: brightness(55%);
+}
