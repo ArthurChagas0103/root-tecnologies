@@ -15,13 +15,13 @@ function clickMudarCor() {
 		ativado++;
 
 		if (ativado % 2 == 0) {
-			document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)'
+			document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)';
 		}
 		else {
-			document.getElementById('navbar').style.backgroundColor = '#1B2029'
+			document.getElementById('navbar').style.backgroundColor = '#1B2029';
 		}
 	}
 	else {
-		document.getElementById('navbar').style.backgroundColor = '#1B2029'
+		document.getElementById('navbar').style.backgroundColor = '#1B2029';
 	}
 }
