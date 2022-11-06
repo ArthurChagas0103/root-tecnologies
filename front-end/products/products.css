@@ -55,3 +55,10 @@
     cursor: pointer;
     transition: background .5s;
 }
+
+#btn-tittle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
