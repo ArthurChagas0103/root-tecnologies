@@ -3,10 +3,10 @@
 #imgRaizProblemas {
     position: absolute;
     z-index: 1;
-    top: 30%;
-    left: 30%;
     translate: -50%;
     transform: translateY(-40%);
+    margin-top: 25%;
+    margin-left: 10%;
 }
 
 #filtro{
@@ -33,13 +33,21 @@
     margin-left: 30px;
 }
 
+#btn-tittle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #btnComprar {
     position: absolute;
     z-index: 1;
-    top: 80%;
-    left: 9.5%;
     translate: -50%;
     transform: translateY(-40%);
+    left: 0;
+    margin-top: 85%;
+    margin-left: 14%;
 
     background-color: transparent;
     border: 1px solid #DAC072;
@@ -54,11 +62,4 @@
     background-color: #DAC072;
     cursor: pointer;
     transition: background .5s;
-}
-
-#btn-tittle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
