@@ -9,6 +9,30 @@
     transform: translateY(-40%);
 }
 
+#filtro{
+    width: 290px;
+    height: 500px;
+    background-color: #1B2029;
+    margin-top: 70px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+#filtroProdutos{
+    padding: 20px;
+}
+
+.textFiltro{
+    font-weight: 200 !important;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.checkbox{
+    cursor: pointer;
+    margin-left: 30px;
+}
+
 #btnComprar {
     position: absolute;
     z-index: 1;
