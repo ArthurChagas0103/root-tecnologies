@@ -68,3 +68,8 @@ body::-webkit-scrollbar-thumb {
     background-color: #DAC072;
     border-radius: 4px;
 }
+
+.text{
+    color: white;
+    font-weight: 400;
+}
