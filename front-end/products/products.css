@@ -11,15 +11,16 @@
 
 #filtro{
     width: 290px;
-    height: 500px;
+    height: 510px;
     background-color: #1B2029;
     margin-top: 70px;
     margin-left: 100px;
     border-radius: 10px;
 }
 
-#filtroProdutos{
+.filtroProdutos{
     padding: 20px;
+    padding-bottom: 0;
 }
 
 .textFiltro{
@@ -40,7 +41,6 @@
     left: 9.5%;
     translate: -50%;
     transform: translateY(-40%);
-
     background-color: transparent;
     border: 1px solid #DAC072;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
