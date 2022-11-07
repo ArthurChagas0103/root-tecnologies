@@ -9,27 +9,28 @@
     margin-left: 10%;
 }
 
-#filtro{
+#filtro {
     width: 290px;
-    height: 510px;
+    height: 695px;
     background-color: #1B2029;
     margin-top: 70px;
     margin-left: 100px;
     border-radius: 10px;
+    position: absolute;
 }
 
-.filtroProdutos{
+.filtroProdutos {
     padding: 20px;
     padding-bottom: 0;
 }
 
-.textFiltro{
+.textFiltro {
     font-weight: 200 !important;
     margin-left: 10px;
     cursor: pointer;
 }
 
-.checkbox{
+.checkbox {
     cursor: pointer;
     margin-left: 30px;
 }
@@ -70,6 +71,7 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
 }
 
 .container {
@@ -120,4 +122,71 @@
     color: #1B2029;
     cursor: pointer;
     transition: background .5s;
+}
+
+#range::-webkit-slider-runnable-track {
+    background: #B29D5E;
+}
+
+#range::-webkit-slider-thumb {
+    background: #e2d6bc;
+}
+
+#rangeEPrecos{
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#precos{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.valor{
+    font-size: 13px;
+}
+
+#precoTrezentos{
+    margin-left: 5px;
+}
+
+#precoMil{
+    text-align: center;
+}
+
+#precoQuatroMil{
+    text-align: right;
+    margin-right: 5px;
+}
+
+#btnFiltrar{
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #DAC072;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#btnFiltrar:hover{
+    background-color: #E8CB8B;
+}
+
+#btnDesfiltrar{
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #DAC072;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#btnDesfiltrar:hover{
+    background-color: #E8CB8B;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
 }
