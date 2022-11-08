@@ -1,24 +1,37 @@
 @media (min-width: 1000px) and (max-width: 1400px) {
-    #imgRaizProblemas {
-        width: 500px;
-        position: absolute;
+    #btn-tittle {
+        display: grid;
         z-index: 1;
-        top: 40%;
-        left: 50%;
-        translate: -50%;
-        transform: translateY(-40%);
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 170px;
     }
 }
 
 @media (min-width: 890px) and (max-width: 1000px) {
     #imgRaizProblemas {
-        width: 500px;
-        position: absolute;
+        width: 60%;
+    }
+
+    #btn-tittle {
+        display: grid;
         z-index: 1;
-        top: 35%;
-        left: 25%;
-        translate: -25%;
-        transform: translateY(-35%);
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 130px;
+    }
+
+    #btnComprar {
+        z-index: 1;
+        background-color: transparent;
+        border: 1px solid #DAC072;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 5px;
+        color: #FFFFFF;
+        padding: 5px 12px;
+        transition: background .5s;
+        margin-top: 30px;
+        font-size: 12px;
     }
 }
 
@@ -34,52 +47,141 @@
 }
 
 @media (min-width: 710px) and (max-width: 890px) {
-    #imgRaizProblemas {
-        width: 300px;
-        position: absolute;
-        z-index: 1;
-        top: 35%;
-        left: 50%;
-        translate: -50%;
-        transform: translateY(-35%);
-    }
-
     #rootTecnologies {
         height: 25px;
         margin-left: 20px;
+    }
+
+    #imgRaizProblemas {
+        width: 60%;
+    }
+
+    #btn-tittle {
+        display: grid;
+        z-index: 1;
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 100px;
+    }
+
+    #btnComprar {
+        z-index: 1;
+        background-color: transparent;
+        border: 1px solid #DAC072;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 5px;
+        color: #FFFFFF;
+        padding: 5px 12px;
+        transition: background .5s;
+        margin-top: 30px;
+        font-size: 10px;
     }
 }
 
 @media (min-width: 600px) and (max-width: 710px) {
-    #imgRaizProblemas {
-        width: 300px;
-        position: absolute;
-        z-index: 1;
-        top: 15%;
-        left: 25%;
-        translate: -25%;
-        transform: translateY(-15%);
-    }
-
     #rootTecnologies {
         height: 25px;
         margin-left: 20px;
+    }
+
+    #imgRaizProblemas {
+        width: 60%;
+    }
+
+    #btn-tittle {
+        display: grid;
+        z-index: 1;
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 100px;
+    }
+
+    #btnComprar {
+        z-index: 1;
+        background-color: transparent;
+        border: 1px solid #DAC072;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 5px;
+        color: #FFFFFF;
+        padding: 5px 12px;
+        transition: background .5s;
+        margin-top: 30px;
+        font-size: 10px;
     }
 }
 
 @media(max-width: 600px) {
-    #imgRaizProblemas {
-        width: 300px;
-        position: absolute;
-        z-index: 1;
-        top: 10%;
-        left: 50%;
-        translate: -50%;
-        transform: translateY(-10%);
-    }
-
     #rootTecnologies {
         height: 25px;
         margin-left: 20px;
+    }
+
+    #imgRaizProblemas {
+        width: 60%;
+    }
+
+    #btn-tittle {
+        display: grid;
+        z-index: 1;
+        justify-items: flex-start;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 110px;
+    }
+
+    #btnComprar {
+        z-index: 1;
+        background-color: transparent;
+        border: 1px solid #DAC072;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 5px;
+        color: #FFFFFF;
+        padding: 5px 12px;
+        transition: background .5s;
+        margin-top: 10px;
+        font-size: 8px;
+    }
+
+    #container-produtos {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .produtos {
+        border: 0.5px solid #1B2029;
+        width: 250px;
+        height: 350px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 20px 20px;
+    }
+
+    #filtro {
+        width: 100%;
+        height: 695px;
+        background-color: #1B2029;
+        margin-top: 50px;
+        border-radius: 10px;
+        position: relative;
+        margin-left: 0;
     }
 }
