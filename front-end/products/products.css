@@ -1,13 +1,13 @@
 @import url('../global/global.css');
 
 #filtro {
-    width: 290px;
+    width: 350px;
     height: 695px;
     background-color: #1B2029;
-    margin-top: 70px;
-    margin-left: 100px;
+    margin-top: 50px;
     border-radius: 10px;
     position: absolute;
+    margin-left: 10px;
 }
 
 .filtroProdutos {
@@ -24,6 +24,14 @@
 .checkbox {
     cursor: pointer;
     margin-left: 30px;
+}
+
+#filtroProdutos{
+    grid-area: produtos;
+}
+
+#filtroMarcas{
+    grid-area: marcas;
 }
 
 #btn-tittle {
@@ -59,7 +67,7 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .container {
@@ -68,6 +76,7 @@
     gap: 5%;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .produtos {
@@ -124,6 +133,7 @@
     display: grid;
     margin-top: 30px;
     margin-bottom: 30px;
+    grid-area: precos;
 }
 
 #precos{
@@ -177,4 +187,5 @@
 #buttons{
     display: flex;
     justify-content: center;
+    grid-area: botoes;
 }
