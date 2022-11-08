@@ -407,10 +407,15 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-content: center;
         gap: 50px;
     }
 
     #logoRodape{
         width: 150px;
+    }
+
+    #descricaoRodape{
+        width: 90%;
     }
 }
