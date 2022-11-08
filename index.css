@@ -56,7 +56,16 @@
 }
 
 #imgKeyboard {
-    position: absolute;
     z-index: -1;
+    position: absolute;
+    right: 0%;
 }
 
+#contact {
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 3px;
+    margin-left: 70%;
+    margin-top: 10%;
+}
