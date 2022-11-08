@@ -18,15 +18,17 @@
 }
 
 #legendaV1{
-    margin-left: 200px;
+    margin-left: 500px;
 }
 
 #legendaV2{
     margin-bottom: 30px;
-    margin-left: 400px;
+    margin-left: 650px;
 }
 
 #descricaoVerificacao{
+    margin-top: 100px;
+    margin-left: 300px;
     margin-bottom: 50px;
 }
 
@@ -166,13 +168,13 @@ form {
 
 #logoRodape{
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 #copyrightRodape{
     color: #ffffff98;
     margin-top: 12px;
-    margin-left: 500px;
+    margin-left: 750px;
     font-size: 12px;
 }
 
@@ -182,12 +184,12 @@ form {
     font-size: 25px;
     margin-top: -180px;
     color: #ffffff;
-    margin-left: 550px;
+    margin-left: 830px;
 }
 
 #iconesRodape{
     margin-top: -150px;
-    margin-left: 570px;
+    margin-left: 850px;
     letter-spacing: 8px;
 }
 
@@ -210,7 +212,7 @@ form {
     padding: 6px 20px;
     border-radius: 4px;
     border: 0;
-    margin-left: 572px;
+    margin-left: 850px;
     margin-top: 25px;
 }
 
@@ -218,6 +220,6 @@ form {
     width: 400px;
     font-size: 13px;
     color: #ffffff;
-    margin-left: 900px;
+    margin-left: 1300px;
     margin-top: -130px;
 }
