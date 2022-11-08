@@ -30,3 +30,65 @@
 }
 
 /* -------------------------------- */
+
+#containerAboutUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#imgHardware2 {
+    margin-top: 10%;
+}
+
+#imgTextAboutUs {
+    margin-top: 10%;
+}
+
+.TitleAboutUs {
+    text-align: center;
+    margin-top: 5%;
+    padding: 0;
+}
+
+.title1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.title2 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #DAC072;
+    margin-left: 16%;
+}
+
+#informations {
+    margin-top: 10%;
+}
+
+#imgFornecedores {
+    margin-top: 2%;
+}
+
+#services {
+    margin-top: 5%;
+}
+
+#imgKeyboard {
+    z-index: -1;
+    position: absolute;
+    right: 0%;
+}
+
+#contact {
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 3px;
+    margin-left: 70%;
+    margin-top: 10%;
+}
+
