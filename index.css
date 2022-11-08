@@ -84,6 +84,10 @@
     right: 0%;
 }
 
+#sectionContato {
+    margin-bottom: 10%;
+}
+
 #contact {
     background-color: #ffffff;
     position: absolute;
@@ -91,6 +95,7 @@
     border-radius: 3px;
     margin-left: 70%;
     margin-top: 10%;
+<<<<<<< HEAD
 }
 
 /*Rodapé*/
@@ -157,4 +162,6 @@
     color: #ffffff;
     margin-left: 900px;
     margin-top: -130px;
+=======
+>>>>>>> 7aee71867ef8db19d1900643844731ca95bbb612
 }
