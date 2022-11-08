@@ -167,6 +167,12 @@ form {
     border-radius: 5px;
 }
 
+.inputForm::placeholder {
+    font-size: 14px;
+    opacity: 0.3;
+    font-family: 'Roboto', sans-serif;
+}
+
 #mensagem {
     align-self: flex-end;
     grid-area: coluna2;

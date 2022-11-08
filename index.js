@@ -31,7 +31,6 @@ function preenchimento()
 	document.getElementById("nome").placeholder = "John Doe";
 	document.getElementById("celular").placeholder = "+55 (XX) 9 XXXX-XXXX";
 	document.getElementById("email").placeholder = "example@email.com";
-	document.getElementById("mensagem").placeholder = "Digite aqui sua mensagem..."
+	document.getElementById("mensagem").placeholder = "Digite aqui sua mensagem...";
 }
-
-window.addEventListener("load", preenchimento)
+window.addEventListener("load", preenchimento);
