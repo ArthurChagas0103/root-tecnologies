@@ -27,7 +27,7 @@
 
 .TitleAboutUs {
     text-align: center;
-    margin-top: 3%;
+    margin-top: 5%;
     padding: 0;
 }
 
@@ -50,3 +50,13 @@
 #imgFornecedores {
     margin-top: 2%;
 }
+
+#services {
+    margin-top: 5%;
+}
+
+#imgKeyboard {
+    position: absolute;
+    z-index: -1;
+}
+
