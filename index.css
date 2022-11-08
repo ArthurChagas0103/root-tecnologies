@@ -9,6 +9,28 @@
     transform: translateY(-40%);
 }
 
+/*Parte da Verificação da Empresa*/
+#verificacao{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+
+#legendaV1{
+    margin-left: 200px;
+}
+
+#legendaV2{
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
+#descricaoVerificacao{
+    margin-bottom: 50px;
+}
+
+/* -------------------------------- */
+
 #containerAboutUs {
     display: flex;
     flex-direction: row;
@@ -69,3 +91,4 @@
     margin-left: 70%;
     margin-top: 10%;
 }
+
