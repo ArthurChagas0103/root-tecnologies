@@ -100,25 +100,33 @@
         </div>
 
         <form>
-            <h1 id="contactTitle">Contate-nos</h1>
+            <div id="formulario">
+                <h1 id="contactTitle">Contate-nos</h1>
 
             <div id="grid">
                 <div id="gridColumn">
                     <h1 class="inputTItle">Nome</h1>
-                    <input type="text" name="" class="inputForm">
+                    <input type="text" name="" class="inputForm" id="nome">
     
                     <h1 class="inputTItle">Celular</h1>
-                    <input type="tel" name="" id="" class="inputForm">
+                    <input type="tel" name="" class="inputForm" id="celular">
     
                     <h1 class="inputTItle">Email</h1>
-                    <input type="email" name="" id="" class="inputForm">
+                    <input type="email" name="" class="inputForm" id="email">
                 </div>
     
-                <textarea name="" id="mensagem" class="inputForm" cols="30" rows="10"></textarea>
+                <div>
+                    <h1 class="inputTItle">Mensagem</h1>
+                    <textarea name="" id="mensagem" class="inputForm" cols="30" rows="10" maxlength="292"></textarea>
+                </div>       
             </div>
-            
 
-            <button id="btnEnviar">ENVIAR</button>
+            <div id="btn">
+                <button class="btnForm">ENVIAR</button>
+                <button class="btnForm">LIMPAR</button>
+            </div>
+            </div>   
+            
         </form>
     </section>
 
