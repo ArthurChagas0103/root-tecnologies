@@ -396,3 +396,26 @@
         margin-left: 0px;
     }
 }
+
+@media (max-width: 1200px) {
+    #rodape{
+        background-color: #1B2029;
+        width: 100%;
+        height: auto;
+        margin-top: 103px;
+        margin-bottom: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 50px;
+    }
+
+    #logoRodape{
+        width: 150px;
+    }
+
+    #descricaoRodape{
+        width: 90%;
+    }
+}

@@ -72,15 +72,16 @@
         <img src="./front-end/global/img/informations.png" id="informations" width="100%">
     </section>
 
-<!--Parte da Verificação da Empresa-->
-<header id="verificacao">
-    <div id="legendaV1" style="color: #000000;">Qualidade dos Produtos</div>
-    <div id="legendaV2" style="color: #DAC072;">Verificado por Especialistas <img src="/front-end/global/img/iconeVerificado.png" width="40px"></div>
+    <!--Parte da Verificação da Empresa-->
+    <section id="verificacao">
+        <div id="legendaV1" style="color: #000000;">Qualidade dos Produtos</div>
+        <div id="legendaV2" style="color: #DAC072;">Verificado por Especialistas <img
+                src="/front-end/global/img/iconeVerificado.png" width="40px"></div>
         <img src="/front-end/global/img/descricaoVerificacao.png" id="descricaoVerificacao">
-</header>
-<!--/Parte da Verificação da Empresa-->
+    </section>
+    <!--/Parte da Verificação da Empresa-->
 
-    <section class="TitleAboutUs">   
+    <section class="TitleAboutUs">
         <h1 class="title1">CONHEÇA NOSSOS</h1>
         <h1 class="title2">FORNECEDORES!</h1>
         <img src="./front-end/global/img/fornecedores.png" id="imgFornecedores" width="100%">
@@ -94,20 +95,44 @@
     <div id="sectionContato"></div>
 
     <section class="TitleAboutUs">
-        <img src="./front-end/global/img/keyboard.png" id="imgKeyboard">
-        <div id="contact">
-            <h1>Contate-nos</h1>
-            <div class="form__group field">
-                <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
-                <label for="name" class="form__label">Name</label>
-            </div>
-    </section>
-    
+        <div>
+            <img src="./front-end/global/img/keyboard.png" id="imgKeyboard">
+        </div>
 
-    <div style="margin-top: 3000px;"></div>
+        <form>
+            <div id="formulario">
+                <h1 id="contactTitle">Contate-nos</h1>
+
+            <div id="grid">
+                <div id="gridColumn">
+                    <h1 class="inputTItle">Nome</h1>
+                    <input type="text" name="" class="inputForm" id="nome" autofocus>
+    
+                    <h1 class="inputTItle">Celular</h1>
+                    <input type="tel" name="" class="inputForm" id="celular">
+    
+                    <h1 class="inputTItle">Email</h1>
+                    <input type="email" name="" class="inputForm" id="email">
+                </div>
+    
+                <div>
+                    <h1 class="inputTItle">Mensagem</h1>
+                    <textarea name="" id="mensagem" class="inputForm" cols="30" rows="10" maxlength="292"></textarea>
+                </div>       
+            </div>
+
+            <div id="btn">
+                <button class="btnForm">ENVIAR</button>
+                <button class="btnForm" type="reset">LIMPAR</button>
+            </div>
+            </div>   
+            
+        </form>
+    </section>
+
 
     <!--Rodapé-->
-    <section id="rodape">
+    <section id="rodape" class="Titulo">
         <img src="/front-end/global/img/iconeLogoBranca.png" width="250px" id="logoRodape">
 
         <div id="rodapeRedesSociais">Redes Sociais</div>
@@ -123,9 +148,9 @@
         <button id="btnContate-nos">Contate-nos</button>
 
         <div id="descricaoRodape">Lorem Ipsum is simply dummy text of the printing
-            and typesetting industry. Lorem Ipsum has been 
-            the industry's standard dummy text ever since the 
-            1500s, when an unknown printer took a galley of type 
+            and typesetting industry. Lorem Ipsum has been
+            the industry's standard dummy text ever since the
+            1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
             Lorem Ipsum is simply dummy text of the printing
             and typesetting industry.</div>
