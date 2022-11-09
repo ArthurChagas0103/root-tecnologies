@@ -27,7 +27,7 @@ function clickMudarCor() {
 }
 
 function filtrar() {
-	checkPlacaVideo = document.getElementById('placaVideo');
+	checkplacaDeVideo = document.getElementById('placaDeVideo');
 	checkProcessador = document.getElementById('processador');
 	checkMonitor = document.getElementById('monitor');
 	checkRam = document.getElementById('ram');
@@ -54,11 +54,12 @@ function filtrar() {
 	hd = document.getElementById('hdContainer');
 	ssd = document.getElementById('ssdContainer');
 	gabinete = document.getElementById('gabineteContainer');
+	placaVideo = document.getElementById('placaVideo');
 
 	range = document.getElementById('range').value;
 
 	if (checkPlacaVideo.checked == true && checkNvidia.checked == true && (range == 3)) {
-		// placaVideo.style.display = 'flex';
+		placaVideo.style.display = 'flex';
 
 		placaMae.style.display = 'none';
 		processador.style.display = 'none';
@@ -81,7 +82,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkMonitor.checked == true && checkSamsung.checked == true && range == 3) {
 		monitor.style.display = 'flex';
@@ -94,7 +95,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkRam.checked == true && checkHusky.checked == true && (range == 1 || range == 2 || range == 3)) {
 		ram.style.display = 'flex';
@@ -107,7 +108,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkPlacaMae.checked == true && checkGigabyte.checked == true && (range == 2 || range == 3)) {
 		placaMae.style.display = 'flex';
@@ -120,7 +121,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkFonte.checked == true && checkCorsair.checked == true && (range == 2 || range == 3)) {
 		fonte.style.display = 'flex';
@@ -133,7 +134,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkCooler.checked == true && checkRise.checked == true && (range == 2 || range == 3)) {
 		cooler.style.display = 'flex';
@@ -146,7 +147,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkArmazenamento.checked == true && checkBarracuda.checked == true && (range == 1 || range == 2 || range == 3)) {
 		hd.style.display = 'flex';
@@ -159,7 +160,7 @@ function filtrar() {
 		cooler.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkArmazenamento.checked == true && checkKingston.checked == true && (range == 1 || range == 2 || range == 3)) {
 		ssd.style.display = 'flex';
@@ -172,13 +173,13 @@ function filtrar() {
 		cooler.style.display = 'none';
 		hd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkPlacaVideo.checked == true && checkNvidia.checked == false && checkGigabyte.checked == false && checkIntel.checked == false &&
 		checkHusky.checked == false && checkCorsair.checked == false && checkSamsung.checked == false && checkRise.checked == false &&
 		checkBarracuda.checked == false && checkKingston.checked == false && range == 3) {
 
-		// placaVideo.style.display = 'flex';
+		placaVideo.style.display = 'flex';
 
 		placaMae.style.display = 'none';
 		processador.style.display = 'none';
@@ -204,7 +205,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkMonitor.checked == true && checkNvidia.checked == false && checkGigabyte.checked == false && checkIntel.checked == false &&
 		checkHusky.checked == false && checkCorsair.checked == false && checkSamsung.checked == false && checkRise.checked == false &&
@@ -220,7 +221,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkRam.checked == true && checkNvidia.checked == false && checkGigabyte.checked == false && checkIntel.checked == false &&
 		checkHusky.checked == false && checkCorsair.checked == false && checkSamsung.checked == false && checkRise.checked == false &&
@@ -236,7 +237,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkPlacaMae.checked == true && checkNvidia.checked == false && checkGigabyte.checked == false && checkIntel.checked == false &&
 		checkHusky.checked == false && checkCorsair.checked == false && checkSamsung.checked == false && checkRise.checked == false &&
@@ -252,7 +253,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkFonte.checked == true && checkNvidia.checked == false && checkGigabyte.checked == false && checkIntel.checked == false &&
 		checkHusky.checked == false && checkCorsair.checked == false && checkSamsung.checked == false && checkRise.checked == false &&
@@ -268,7 +269,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkCooler.checked == true && checkNvidia.checked == false && checkGigabyte.checked == false && checkIntel.checked == false &&
 		checkHusky.checked == false && checkCorsair.checked == false && checkSamsung.checked == false && checkRise.checked == false &&
@@ -284,7 +285,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkArmazenamento.checked == true && checkNvidia.checked == false && checkGigabyte.checked == false && checkIntel.checked == false &&
 		checkHusky.checked == false && checkCorsair.checked == false && checkSamsung.checked == false && checkRise.checked == false &&
@@ -300,13 +301,13 @@ function filtrar() {
 		monitor.style.display = 'none';
 		cooler.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkPlacaVideo.checked == false && checkProcessador.checked == false && checkMonitor.checked == false &&
 		checkRam.checked == false && checkPlacaMae.checked == false && checkFonte.checked == false && checkCooler.checked == false &&
 		checkArmazenamento.checked == false && checkNvidia.checked == true && range == 3) {
 
-		// placaVideo.style.display = 'flex';
+		placaVideo.style.display = 'flex';
 
 		placaMae.style.display = 'none';
 		processador.style.display = 'none';
@@ -332,7 +333,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkPlacaVideo.checked == false && checkProcessador.checked == false && checkMonitor.checked == false &&
 		checkRam.checked == false && checkPlacaMae.checked == false && checkFonte.checked == false && checkCooler.checked == false &&
@@ -348,7 +349,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkPlacaVideo.checked == false && checkProcessador.checked == false && checkMonitor.checked == false &&
 		checkRam.checked == false && checkPlacaMae.checked == false && checkFonte.checked == false && checkCooler.checked == false &&
@@ -364,7 +365,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkPlacaVideo.checked == false && checkProcessador.checked == false && checkMonitor.checked == false &&
 		checkRam.checked == false && checkPlacaMae.checked == false && checkFonte.checked == false && checkCooler.checked == false &&
@@ -380,7 +381,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkPlacaVideo.checked == false && checkProcessador.checked == false && checkMonitor.checked == false &&
 		checkRam.checked == false && checkPlacaMae.checked == false && checkFonte.checked == false && checkCooler.checked == false &&
@@ -396,7 +397,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkPlacaVideo.checked == false && checkProcessador.checked == false && checkMonitor.checked == false &&
 		checkRam.checked == false && checkPlacaMae.checked == false && checkFonte.checked == false && checkCooler.checked == false &&
@@ -412,7 +413,7 @@ function filtrar() {
 		hd.style.display = 'none';
 		ssd.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkPlacaVideo.checked == false && checkProcessador.checked == false && checkMonitor.checked == false &&
 		checkRam.checked == false && checkPlacaMae.checked == false && checkFonte.checked == false && checkCooler.checked == false &&
@@ -428,7 +429,7 @@ function filtrar() {
 		monitor.style.display = 'none';
 		cooler.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (checkPlacaVideo.checked == false && checkProcessador.checked == false && checkMonitor.checked == false &&
 		checkRam.checked == false && checkPlacaMae.checked == false && checkFonte.checked == false && checkCooler.checked == false &&
@@ -444,7 +445,7 @@ function filtrar() {
 		monitor.style.display = 'none';
 		cooler.style.display = 'none';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (range == 1) {
 		placaMae.style.display = 'none';
@@ -456,7 +457,7 @@ function filtrar() {
 		hd.style.display = 'flex';
 		ssd.style.display = 'flex';
 		gabinete.style.display = 'none';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else if (range == 2) {
 		placaMae.style.display = 'flex';
@@ -468,7 +469,7 @@ function filtrar() {
 		hd.style.display = 'flex';
 		ssd.style.display = 'flex';
 		gabinete.style.display = 'flex';
-		// placaVideo.style.display = 'none';
+		placaVideo.style.display = 'none';
 	}
 	else {
 		processador.style.display = 'flex';
@@ -480,12 +481,12 @@ function filtrar() {
 		hd.style.display = 'flex';
 		ssd.style.display = 'flex';
 		gabinete.style.display = 'flex';
-		// placaVideo.style.display = 'flex';
+		placaVideo.style.display = 'flex';
 	}
 }
 
 function desfiltrar() {
-	checkPlacaVideo = document.getElementById('placaVideo');
+	checkPlacaVideo = document.getElementById('placaDeVideo');
 	checkProcessador = document.getElementById('processador');
 	checkMonitor = document.getElementById('monitor');
 	checkRam = document.getElementById('ram');
@@ -512,6 +513,7 @@ function desfiltrar() {
 	hd = document.getElementById('hdContainer');
 	ssd = document.getElementById('ssdContainer');
 	gabinete = document.getElementById('gabineteContainer');
+	placaVideo = document.getElementById('placaVideo');
 
 	range = document.getElementById('range').value;
 
@@ -524,6 +526,7 @@ function desfiltrar() {
 	hd.style.display = 'flex';
 	ssd.style.display = 'flex';
 	gabinete.style.display = 'flex';
+	placaVideo.style.display = 'flex';
 
 	checkPlacaVideo.checked = false;
 	checkProcessador.checked = false;
