@@ -1,14 +1,24 @@
 function mudarCor() {
-	if (window.scrollY > 0) {
-		document.getElementById('navbar').style.backgroundColor = '#1B2029'
+	if (icone % 2 == 0) {
+		if (window.scrollY < 1 && ativado % 2 == 0) {
+			document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)'
+		}
+		else {
+			document.getElementById('navbar').style.backgroundColor = '#1B2029'
+		}
 	}
 	else {
-		document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)'
+		if (window.scrollY < 1 && ativado % 2 == 0) {
+			document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)'
+		}
+		else {
+			document.getElementById('navbar').style.backgroundColor = '#DAC072'
+		}
 	}
 }
 window.addEventListener('scroll', mudarCor)
 
-let ativado = 0;
+let ativado = 2;
 
 function clickMudarCor() {
 	if (window.scrollY < 1) {
@@ -18,11 +28,21 @@ function clickMudarCor() {
 			document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)'
 		}
 		else {
-			document.getElementById('navbar').style.backgroundColor = '#1B2029'
+			if (icone % 2 == 0) {
+				document.getElementById('navbar').style.backgroundColor = '#1B2029'
+			}
+			else {
+				document.getElementById('navbar').style.backgroundColor = '#DAC072'
+			}
 		}
 	}
 	else {
-		document.getElementById('navbar').style.backgroundColor = '#1B2029'
+		if (icone % 2 == 0) {
+			document.getElementById('navbar').style.backgroundColor = '#1B2029'
+		}
+		else {
+			document.getElementById('navbar').style.backgroundColor = '#DAC072'
+		}
 	}
 }
 
@@ -545,4 +565,39 @@ function desfiltrar() {
 	checkRise.checked = false;
 	checkBarracuda.checked = false;
 	checkKingston.checked = false;
+}
+
+window.addEventListener("load", desfiltrar);
+
+let icone = 0;
+
+function mudarModo() {
+	icone++;
+
+	if (icone % 2 == 0) {
+		document.getElementById('lua').style.display = 'flex';
+		document.getElementById('sol').style.display = 'none';
+
+		if (window.scrollY < 1 && ativado % 2 == 0) {
+			document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)';
+		}
+		else {
+			document.getElementById('navbar').style.backgroundColor = '#1B2029';
+			document.getElementById('corpo').style.backgroundColor = '#1B2029';
+
+		}
+	}
+	else {
+		document.getElementById('lua').style.display = 'none';
+		document.getElementById('sol').style.display = 'flex';
+
+		if (window.scrollY < 1 && ativado % 2 == 0) {
+			document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)';
+		}
+		else {
+			document.getElementById('navbar').style.backgroundColor = '#DAC072';
+			document.getElementById('corpo').style.backgroundColor = 'white';
+			document.getElementById('teste').style.setProperty("color", "white", "important");
+		}
+	}
 }

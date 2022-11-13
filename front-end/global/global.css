@@ -158,3 +158,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 13px;
     color: #ffffff;
 }
+
+#sol{
+    display: none;
+}
