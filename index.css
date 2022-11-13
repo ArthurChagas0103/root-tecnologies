@@ -13,23 +13,12 @@
 #verificacao {
     font-size: 40px;
     font-weight: bolder;
-    margin-left: 100px;
     margin-top: 110px;
-}
 
-#legendaV1 {
-    margin-left: 500px;
-}
-
-#legendaV2 {
-    margin-bottom: 30px;
-    margin-left: 650px;
-}
-
-#descricaoVerificacao {
-    margin-top: 100px;
-    margin-left: 300px;
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* -------------------------------- */
@@ -40,6 +29,8 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+
+    margin-top: 10%;
 }
 
 #imgHardware2 {
@@ -65,7 +56,6 @@
     font-weight: bold;
     font-size: 36px;
     color: #DAC072;
-    margin-left: 16%;
 }
 
 #informations {
