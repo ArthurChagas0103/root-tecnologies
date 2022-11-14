@@ -34,3 +34,38 @@ function preenchimento()
 	document.getElementById("mensagem").placeholder = "Digite aqui sua mensagem...";
 }
 window.addEventListener("load", preenchimento);
+
+
+
+
+
+// Modo claro e escuro (teste)
+
+let icone = localStorage.getItem('valorIcone')
+
+console.log(icone)
+
+function verificaTema(){
+	if (icone % 2 == 0) {
+		if (window.scrollY < 1) {
+			document.getElementById('lua').style.display = 'none';
+			document.getElementById('sol').style.display = 'flex';
+		}
+		else {
+			document.getElementById('lua').style.display = 'none';
+			document.getElementById('sol').style.display = 'flex';
+		}
+	}
+	else {
+		if (window.scrollY < 1) {
+			document.getElementById('lua').style.display = 'flex';
+			document.getElementById('sol').style.display = 'none';
+		}
+		else {
+			document.getElementById('lua').style.display = 'flex';
+			document.getElementById('sol').style.display = 'none';
+		}
+	}
+}
+
+window.addEventListener("load", verificaTema);
