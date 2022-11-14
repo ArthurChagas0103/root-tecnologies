@@ -137,7 +137,46 @@
     }
 
     #verificacao {
-        width: 100px;
+        width: 100%;
         height: auto;
+    }
+
+    #descricaoVerificacao {
+        width: 400px;
+        height: auto;
+    }
+
+    #titleServices {
+        width: 90%;
+    }
+
+    #servico {
+        width: 50%;
+    }
+
+    #formulario {
+        width: 95%;
+        margin: 0;
+        margin-left: 2%;
+    }
+
+    .inputForm {
+        width: 70%;
+    }
+
+    #rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }   
+
+    #divLorem {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    #descricaoRodape {
+        text-align: center;
     }
 }
