@@ -26,18 +26,13 @@ function clickMudarCor() {
 	}
 }
 
-function preenchimento() 
-{
+function preenchimento() {
 	document.getElementById("nome").placeholder = "John Doe";
 	document.getElementById("celular").placeholder = "+55 (XX) 9 XXXX-XXXX";
 	document.getElementById("email").placeholder = "example@email.com";
 	document.getElementById("mensagem").placeholder = "Digite aqui sua mensagem...";
 }
 window.addEventListener("load", preenchimento);
-
-
-
-
 
 // Modo claro e escuro (teste)
 
@@ -69,3 +64,18 @@ function verificaTema(){
 }
 
 window.addEventListener("load", verificaTema);
+
+function changeImage() {
+	var largura = window.screen.width;
+	
+	if (largura <= 425) {
+		document.getElementById("services").style.display = "none";
+		document.getElementById("servico").style.display = "flex";
+	}
+	else{
+		document.getElementById("services").style.display = "flex";
+		document.getElementById("servico").style.display = "none";
+	}
+
+}
+window.addEventListener("load", changeImage);
