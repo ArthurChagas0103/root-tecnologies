@@ -40,8 +40,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#sectionContato">CONTATO</a>
                     </li>
-                    <li class="nav-item">
-                        <i class="fa fa-moon nav-link"></i>
+                    <li class="nav-item" onclick="mudarModo()">
+                        <i class="fa fa-moon nav-link" id="lua"></i>
+                        <i class="fa fa-sun nav-link" id="sol"></i>
                     </li>
                 </ul>
             </div>
@@ -57,14 +58,14 @@
 
     <section>
         <div class="TitleAboutUs">
-            <h1 class="title1">MERCADO DE HARDWARE POR UMA</h1>
-            <h1 class="title2">PERSPECTIVA QUE VOCÊ NUNCA VIU!</h1>
+            <h1 class="title1 title">MERCADO DE HARDWARE POR UMA</h1>
+            <h1 class="title2 title">PERSPECTIVA QUE VOCÊ NUNCA VIU!</h1>
         </div>
 
         <div id="containerAboutUs">
             <img src="./front-end/global/img/hardware.png" width="auto" height="500px">
             <img src="./front-end/global/img/hardware2.png" width="auto" height="500px" id="imgHardware2">
-            <img src="./front-end/global/img/aboutUs.png" width="" height="" id="imgTextAboutUs">
+            <img src="./front-end/global/img/aboutUs.png" id="imgTextAboutUs">
         </div>
     </section>
 
@@ -74,9 +75,10 @@
 
     <!--Parte da Verificação da Empresa-->
     <section id="verificacao">
-        <div id="legendaV1" style="color: #000000;">Qualidade dos Produtos</div>
-        <div id="legendaV2" style="color: #DAC072;">Verificado por Especialistas <img
-                src="/front-end/global/img/iconeVerificado.png" width="40px"></div>
+        <div class="title1">Qualidade dos Produtos</div>
+        <div class="title2">Verificado por Especialistas
+            <img src="/front-end/global/img/iconeVerificado.png" width="40px">
+        </div>
         <img src="/front-end/global/img/descricaoVerificacao.png" id="descricaoVerificacao">
     </section>
     <!--/Parte da Verificação da Empresa-->
@@ -87,17 +89,18 @@
         <img src="./front-end/global/img/fornecedores.png" id="imgFornecedores" width="100%">
     </section>
 
-    <section class="TitleAboutUs">
-        <img src="./front-end/global/img/servicos.png">
-        <img src="./front-end/global/img/services.png" id="services">
+    <section class="TitleAboutUs" id="ourServices">
+        <img src="./front-end/global/img/servicos.png" id="titleServices">
+        <img src="./front-end/global/img/services.png" id="servico">
+        <img src="./front-end/global/img/services2.png" id="services">
     </section>
 
     <div id="sectionContato"></div>
 
     <section class="TitleAboutUs">
-        <div>
+        <!-- <div>
             <img src="./front-end/global/img/keyboard.png" id="imgKeyboard">
-        </div>
+        </div> -->
 
         <form>
             <div id="formulario">
@@ -140,9 +143,9 @@
         <div id="divRedeSociais">
             <p id="rodapeRedesSociais">Redes Sociais</p>
             <div id="iconesRodape">
-                <img src="/front-end/global/img/iconeInstagram.png" width="50px" id="iconeIRodape">
-                <img src="/front-end/global/img/iconeTwitter.png" width="50px" id="iconeTRodape">
-                <img src="/front-end/global/img/iconeFacebook.png" width="50px" id="iconeFRodape">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
             </div>
             <button id="btnContate-nos">Contate-nos</button>
         </div>
@@ -165,7 +168,7 @@
 
 <script src='index.js'></script>
 <script src='/front-end/global/global.js'></script>
-<script src="https://kit.fontawesome.com/94dd89b3ac.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/03153466ee.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
