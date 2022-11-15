@@ -150,8 +150,18 @@
         width: 90%;
     }
 
+    #services {
+        display: none;
+    }
+
     #servico {
-        width: 50%;
+        width: auto;
+        display: block;
+        margin-top: 10%;
+    }
+
+    #imgKeyboard {
+        display: none;
     }
 
     #formulario {
@@ -162,6 +172,12 @@
 
     .inputForm {
         width: 70%;
+        outline: none;
+    }
+
+    #destaques {
+        width: 350px;
+        height: auto;
     }
 
     #rodape {
