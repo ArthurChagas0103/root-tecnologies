@@ -584,8 +584,14 @@ function mudarModo() {
 			document.getElementById('lua').style.display = 'none';
 			document.getElementById('sol').style.display = 'flex';
 
+			if (ativado % 2 == 0) {
+				document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)'
+			}
+			else {
+				document.getElementById('navbar').style.backgroundColor = '#1B2029'
+			}
+
 			document.getElementById('corpo').style.backgroundColor = 'white';
-			document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)'
 			document.getElementById('barras').style.color = '#A69256';
 			document.getElementById('home').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('produtos').style.setProperty("color", "#DAC072", "important");
@@ -612,7 +618,13 @@ function mudarModo() {
 			document.getElementById('lua').style.display = 'flex';
 			document.getElementById('sol').style.display = 'none';
 
-			document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)'
+			if (ativado % 2 == 0) {
+				document.getElementById('navbar').style.backgroundColor = 'rgba(0, 0, 0, 0)'
+			}
+			else {
+				document.getElementById('navbar').style.backgroundColor = '#182742'
+			}
+			
 			document.getElementById('corpo').style.backgroundColor = '#1B2029';
 			document.getElementById('barras').style.color = 'white';
 			document.getElementById('home').style.setProperty("color", "white", "important");
