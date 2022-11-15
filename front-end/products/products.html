@@ -23,7 +23,7 @@
 
     <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container-fluid">
-            <img src="/front-end/global/img/rootTecnologies.png" id="rootTecnologies">
+            <a href="/index.html"><img src="../global/img/rootTecnologies.png" id="rootTecnologies"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
                 onclick="clickMudarCor()">
@@ -38,7 +38,7 @@
                         <a class="nav-link" href="" id="produtos">PRODUTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="contato">CONTATO</a>
+                        <a class="nav-link" href="/index.html#sectionContato" id="contato">CONTATO</a>
                     </li>
                     <li class="nav-item" onclick="mudarModo()">
                         <i class="fa fa-moon nav-link" id="lua"></i>
@@ -244,8 +244,6 @@
             </div>
         </div>
 
-        <!---->
-
     </div>
 
     <section id="rodape">
@@ -255,11 +253,11 @@
         <div id="divRedeSociais">
             <p id="rodapeRedesSociais">Redes Sociais</p>
             <div id="iconesRodape">
-                <img src="/front-end/global/img/iconeInstagram.png" width="50px" id="iconeIRodape">
-                <img src="/front-end/global/img/iconeTwitter.png" width="50px" id="iconeTRodape">
-                <img src="/front-end/global/img/iconeFacebook.png" width="50px" id="iconeFRodape">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook"></i>
             </div>
-            <button id="btnContate-nos">Contate-nos</button>
+            <button id="btnContate-nos" onclick="window.open('/index.html#sectionContato','_self')">Contate-nos</button>
         </div>
         <div id="divLorem">
             <p id="descricaoRodape">Lorem Ipsum is simply dummy text of the printing
