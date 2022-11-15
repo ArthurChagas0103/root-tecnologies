@@ -166,6 +166,17 @@ form {
 .inputForm {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    outline: none;
+    font-size: 14px;    
+}
+
+#gridColumn input {
+    width: 208px;
+    height: 28px;
+}
+
+.inputForm:focus {
+    border: solid 1px #DAC072;
 }
 
 .inputForm::placeholder {
@@ -177,6 +188,14 @@ form {
 #mensagem {
     align-self: flex-end;
     grid-area: coluna2;
+}
+
+#highlights {
+    margin-top: 10%;
+}
+
+#destaques {
+    margin-bottom: 5%;
 }
 
 i {

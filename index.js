@@ -64,18 +64,3 @@ function verificaTema(){
 }
 
 window.addEventListener("load", verificaTema);
-
-function changeImage() {
-	var largura = window.screen.width;
-	
-	if (largura <= 425) {
-		document.getElementById("services").style.display = "none";
-		document.getElementById("servico").style.display = "flex";
-	}
-	else{
-		document.getElementById("services").style.display = "flex";
-		document.getElementById("servico").style.display = "none";
-	}
-
-}
-window.addEventListener("load", changeImage);
