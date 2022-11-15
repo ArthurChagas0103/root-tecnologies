@@ -175,6 +175,11 @@
         outline: none;
     }
 
+    #destaques {
+        width: 350px;
+        height: auto;
+    }
+
     #rodape {
         display: flex;
         flex-direction: column;
