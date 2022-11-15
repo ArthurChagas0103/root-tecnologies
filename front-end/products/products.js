@@ -598,6 +598,26 @@ function mudarModo() {
 			document.getElementById('contato').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('filtro').style.backgroundColor = '#1B2029';
 			document.getElementById('placaVideo').style.backgroundColor = 'white';
+			document.getElementById('placaVideo').style.color = 'black';
+			document.getElementById('placaMaeContainer').style.backgroundColor = 'white';
+			document.getElementById('placaMaeContainer').style.color = 'black';
+			document.getElementById('processadorContainer').style.backgroundColor = 'white';
+			document.getElementById('processadorContainer').style.color = 'black';
+			document.getElementById('ramContainer').style.backgroundColor = 'white';
+			document.getElementById('ramContainer').style.color = 'black';
+			document.getElementById('fonteContainer').style.backgroundColor = 'white';
+			document.getElementById('fonteContainer').style.color = 'black';
+			document.getElementById('monitorContainer').style.backgroundColor = 'white';
+			document.getElementById('monitorContainer').style.color = 'black';
+			document.getElementById('coolerContainer').style.backgroundColor = 'white';
+			document.getElementById('coolerContainer').style.color = 'black';
+			document.getElementById('hdContainer').style.backgroundColor = 'white';
+			document.getElementById('hdContainer').style.color = 'black';
+			document.getElementById('ssdContainer').style.backgroundColor = 'white';
+			document.getElementById('ssdContainer').style.color = 'black';
+			document.getElementById('gabineteContainer').style.backgroundColor = 'white';
+			document.getElementById('gabineteContainer').style.color = 'black';
+			document.getElementById('rodape').style.backgroundColor = '#1B2029';
 		}
 		else {
 			document.getElementById('lua').style.display = 'none';
@@ -611,6 +631,26 @@ function mudarModo() {
 			document.getElementById('contato').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('filtro').style.backgroundColor = '#1B2029';
 			document.getElementById('placaVideo').style.backgroundColor = 'white';
+			document.getElementById('placaVideo').style.color = 'black';
+			document.getElementById('placaMaeContainer').style.backgroundColor = 'white';
+			document.getElementById('placaMaeContainer').style.color = 'black';
+			document.getElementById('processadorContainer').style.backgroundColor = 'white';
+			document.getElementById('processadorContainer').style.color = 'black';
+			document.getElementById('ramContainer').style.backgroundColor = 'white';
+			document.getElementById('ramContainer').style.color = 'black';
+			document.getElementById('fonteContainer').style.backgroundColor = 'white';
+			document.getElementById('fonteContainer').style.color = 'black';
+			document.getElementById('monitorContainer').style.backgroundColor = 'white';
+			document.getElementById('monitorContainer').style.color = 'black';
+			document.getElementById('coolerContainer').style.backgroundColor = 'white';
+			document.getElementById('coolerContainer').style.color = 'black';
+			document.getElementById('hdContainer').style.backgroundColor = 'white';
+			document.getElementById('hdContainer').style.color = 'black';
+			document.getElementById('ssdContainer').style.backgroundColor = 'white';
+			document.getElementById('ssdContainer').style.color = 'black';
+			document.getElementById('gabineteContainer').style.backgroundColor = 'white';
+			document.getElementById('gabineteContainer').style.color = 'black';
+			document.getElementById('rodape').style.backgroundColor = '#1B2029';
 		}
 	}
 	else {
@@ -633,6 +673,26 @@ function mudarModo() {
 			document.getElementById('lua').style.setProperty("color", "white", "important");
 			document.getElementById('filtro').style.backgroundColor = '#182742';
 			document.getElementById('placaVideo').style.backgroundColor = '#455169';
+			document.getElementById('placaVideo').style.color = 'white';
+			document.getElementById('placaMaeContainer').style.backgroundColor = '#455169';
+			document.getElementById('placaMaeContainer').style.color = 'white';
+			document.getElementById('processadorContainer').style.backgroundColor = '#455169';
+			document.getElementById('processadorContainer').style.color = 'white';
+			document.getElementById('ramContainer').style.backgroundColor = '#455169';
+			document.getElementById('ramContainer').style.color = 'white';
+			document.getElementById('fonteContainer').style.backgroundColor = '#455169';
+			document.getElementById('fonteContainer').style.color = 'white';
+			document.getElementById('monitorContainer').style.backgroundColor = '#455169';
+			document.getElementById('monitorContainer').style.color = 'white';
+			document.getElementById('coolerContainer').style.backgroundColor = '#455169';
+			document.getElementById('coolerContainer').style.color = 'white';
+			document.getElementById('hdContainer').style.backgroundColor = '#455169';
+			document.getElementById('hdContainer').style.color = 'white';
+			document.getElementById('ssdContainer').style.backgroundColor = '#455169';
+			document.getElementById('ssdContainer').style.color = 'white';
+			document.getElementById('gabineteContainer').style.backgroundColor = '#455169';
+			document.getElementById('gabineteContainer').style.color = 'white';
+			document.getElementById('rodape').style.backgroundColor = '#182742';
 		}
 		else {
 			document.getElementById('lua').style.display = 'flex';
@@ -647,6 +707,26 @@ function mudarModo() {
 			document.getElementById('lua').style.setProperty("color", "white", "important");
 			document.getElementById('filtro').style.backgroundColor = '#182742';
 			document.getElementById('placaVideo').style.backgroundColor = '#455169';
+			document.getElementById('placaVideo').style.color = 'white';
+			document.getElementById('placaMaeContainer').style.backgroundColor = '#455169';
+			document.getElementById('placaMaeContainer').style.color = 'white';
+			document.getElementById('processadorContainer').style.backgroundColor = '#455169';
+			document.getElementById('processadorContainer').style.color = 'white';
+			document.getElementById('ramContainer').style.backgroundColor = '#455169';
+			document.getElementById('ramContainer').style.color = 'white';
+			document.getElementById('fonteContainer').style.backgroundColor = '#455169';
+			document.getElementById('fonteContainer').style.color = 'white';
+			document.getElementById('monitorContainer').style.backgroundColor = '#455169';
+			document.getElementById('monitorContainer').style.color = 'white';
+			document.getElementById('coolerContainer').style.backgroundColor = '#455169';
+			document.getElementById('coolerContainer').style.color = 'white';
+			document.getElementById('hdContainer').style.backgroundColor = '#455169';
+			document.getElementById('hdContainer').style.color = 'white';
+			document.getElementById('ssdContainer').style.backgroundColor = '#455169';
+			document.getElementById('ssdContainer').style.color = 'white';
+			document.getElementById('gabineteContainer').style.backgroundColor = '#455169';
+			document.getElementById('gabineteContainer').style.color = 'white';
+			document.getElementById('rodape').style.backgroundColor = '#182742';
 		}
 	}
 	localStorage.setItem('valorIcone', icone)
@@ -666,6 +746,26 @@ function verificaTema() {
 			document.getElementById('contato').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('filtro').style.backgroundColor = '#1B2029';
 			document.getElementById('placaVideo').style.backgroundColor = 'white';
+			document.getElementById('placaVideo').style.color = 'black';
+			document.getElementById('placaMaeContainer').style.backgroundColor = 'white';
+			document.getElementById('placaMaeContainer').style.color = 'black';
+			document.getElementById('processadorContainer').style.backgroundColor = 'white';
+			document.getElementById('processadorContainer').style.color = 'black';
+			document.getElementById('ramContainer').style.backgroundColor = 'white';
+			document.getElementById('ramContainer').style.color = 'black';
+			document.getElementById('fonteContainer').style.backgroundColor = 'white';
+			document.getElementById('fonteContainer').style.color = 'black';
+			document.getElementById('monitorContainer').style.backgroundColor = 'white';
+			document.getElementById('monitorContainer').style.color = 'black';
+			document.getElementById('coolerContainer').style.backgroundColor = 'white';
+			document.getElementById('coolerContainer').style.color = 'black';
+			document.getElementById('hdContainer').style.backgroundColor = 'white';
+			document.getElementById('hdContainer').style.color = 'black';
+			document.getElementById('ssdContainer').style.backgroundColor = 'white';
+			document.getElementById('ssdContainer').style.color = 'black';
+			document.getElementById('gabineteContainer').style.backgroundColor = 'white';
+			document.getElementById('gabineteContainer').style.color = 'black';
+			document.getElementById('rodape').style.backgroundColor = '#1B2029';
 		}
 		else {
 			document.getElementById('lua').style.display = 'none';
@@ -679,6 +779,26 @@ function verificaTema() {
 			document.getElementById('contato').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('filtro').style.backgroundColor = '#1B2029';
 			document.getElementById('placaVideo').style.backgroundColor = 'white';
+			document.getElementById('placaVideo').style.color = 'black';
+			document.getElementById('placaMaeContainer').style.backgroundColor = 'white';
+			document.getElementById('placaMaeContainer').style.color = 'black';
+			document.getElementById('processadorContainer').style.backgroundColor = 'white';
+			document.getElementById('processadorContainer').style.color = 'black';
+			document.getElementById('ramContainer').style.backgroundColor = 'white';
+			document.getElementById('ramContainer').style.color = 'black';
+			document.getElementById('fonteContainer').style.backgroundColor = 'white';
+			document.getElementById('fonteContainer').style.color = 'black';
+			document.getElementById('monitorContainer').style.backgroundColor = 'white';
+			document.getElementById('monitorContainer').style.color = 'black';
+			document.getElementById('coolerContainer').style.backgroundColor = 'white';
+			document.getElementById('coolerContainer').style.color = 'black';
+			document.getElementById('hdContainer').style.backgroundColor = 'white';
+			document.getElementById('hdContainer').style.color = 'black';
+			document.getElementById('ssdContainer').style.backgroundColor = 'white';
+			document.getElementById('ssdContainer').style.color = 'black';
+			document.getElementById('gabineteContainer').style.backgroundColor = 'white';
+			document.getElementById('gabineteContainer').style.color = 'black';
+			document.getElementById('rodape').style.backgroundColor = '#1B2029';
 		}
 	}
 	else {
@@ -695,6 +815,26 @@ function verificaTema() {
 			document.getElementById('lua').style.setProperty("color", "white", "important");
 			document.getElementById('filtro').style.backgroundColor = '#182742';
 			document.getElementById('placaVideo').style.backgroundColor = '#455169';
+			document.getElementById('placaVideo').style.color = 'white';
+			document.getElementById('placaMaeContainer').style.backgroundColor = '#455169';
+			document.getElementById('placaMaeContainer').style.color = 'white';
+			document.getElementById('processadorContainer').style.backgroundColor = '#455169';
+			document.getElementById('processadorContainer').style.color = 'white';
+			document.getElementById('ramContainer').style.backgroundColor = '#455169';
+			document.getElementById('ramContainer').style.color = 'white';
+			document.getElementById('fonteContainer').style.backgroundColor = '#455169';
+			document.getElementById('fonteContainer').style.color = 'white';
+			document.getElementById('monitorContainer').style.backgroundColor = '#455169';
+			document.getElementById('monitorContainer').style.color = 'white';
+			document.getElementById('coolerContainer').style.backgroundColor = '#455169';
+			document.getElementById('coolerContainer').style.color = 'white';
+			document.getElementById('hdContainer').style.backgroundColor = '#455169';
+			document.getElementById('hdContainer').style.color = 'white';
+			document.getElementById('ssdContainer').style.backgroundColor = '#455169';
+			document.getElementById('ssdContainer').style.color = 'white';
+			document.getElementById('gabineteContainer').style.backgroundColor = '#455169';
+			document.getElementById('gabineteContainer').style.color = 'white';
+			document.getElementById('rodape').style.backgroundColor = '#182742';
 		}
 		else {
 			document.getElementById('lua').style.display = 'flex';
@@ -709,6 +849,26 @@ function verificaTema() {
 			document.getElementById('lua').style.setProperty("color", "white", "important");
 			document.getElementById('filtro').style.backgroundColor = '#182742';
 			document.getElementById('placaVideo').style.backgroundColor = '#455169';
+			document.getElementById('placaVideo').style.color = 'white';
+			document.getElementById('placaMaeContainer').style.backgroundColor = '#455169';
+			document.getElementById('placaMaeContainer').style.color = 'white';
+			document.getElementById('processadorContainer').style.backgroundColor = '#455169';
+			document.getElementById('processadorContainer').style.color = 'white';
+			document.getElementById('ramContainer').style.backgroundColor = '#455169';
+			document.getElementById('ramContainer').style.color = 'white';
+			document.getElementById('fonteContainer').style.backgroundColor = '#455169';
+			document.getElementById('fonteContainer').style.color = 'white';
+			document.getElementById('monitorContainer').style.backgroundColor = '#455169';
+			document.getElementById('monitorContainer').style.color = 'white';
+			document.getElementById('coolerContainer').style.backgroundColor = '#455169';
+			document.getElementById('coolerContainer').style.color = 'white';
+			document.getElementById('hdContainer').style.backgroundColor = '#455169';
+			document.getElementById('hdContainer').style.color = 'white';
+			document.getElementById('ssdContainer').style.backgroundColor = '#455169';
+			document.getElementById('ssdContainer').style.color = 'white';
+			document.getElementById('gabineteContainer').style.backgroundColor = '#455169';
+			document.getElementById('gabineteContainer').style.color = 'white';
+			document.getElementById('rodape').style.backgroundColor = '#182742';
 		}
 	}
 }
