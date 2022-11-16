@@ -150,14 +150,102 @@
         width: 90%;
     }
 
-    #services {
+    #servico {
         display: none;
     }
 
-    #servico {
+    #services {
+        width: 100%;
+        display: block;
+        margin-top: 10%;
+    }
+
+    #imgKeyboard {
+        display: none;
+    }
+
+    #formulario {
+        width: 95%;
+        margin: 0;
+        margin-left: 2%;
+    }
+
+    .inputForm {
+        width: 70%;
+        outline: none;
+    }
+
+    #destaques {
+        width: 350px;
+        height: auto;
+    }
+
+    #rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }   
+
+    #divLorem {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    #descricaoRodape {
+        text-align: center;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 900px) 
+{
+    .title1 {
+        font-size: 20px;
+    }
+
+    .title2 {
+        font-size: 20px;
+    }
+
+    #containerAboutUs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #imgHardware2 {
+        width: 336px;
+    }
+
+    #imgTextAboutUs {
+        width: 336px;
+        height: auto;
+    }
+
+    #verificacao {
+        width: 100%;
+        height: auto;
+    }
+
+    #descricaoVerificacao {
+        width: 400px;
+        height: auto;
+    }
+
+    #titleServices {
+        width: 90%;
+    }
+
+    #services {
         width: auto;
         display: block;
         margin-top: 10%;
+    }
+
+    #servico {
+        display: none;
     }
 
     #imgKeyboard {
