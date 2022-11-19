@@ -198,7 +198,7 @@
     }
 }
 
-@media (min-width: 1000px) and (max-width: 1200px) 
+/* @media (min-width: 1000px) and (max-width: 1200px) 
 {
     .title1 {
         font-size: 40px;
@@ -284,4 +284,4 @@
     #descricaoRodape {
         text-align: center;
     }
-}
+} */
