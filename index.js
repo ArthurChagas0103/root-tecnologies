@@ -50,7 +50,7 @@ function clickMudarCor() {
 
 function preenchimento() {
 	document.getElementById("nome").placeholder = "John Doe";
-	document.getElementById("celular").placeholder = "+55 (XX) 9 XXXX-XXXX";
+	document.getElementById("celular").placeholder = "(XX) 9 XXXX-XXXX";
 	document.getElementById("email").placeholder = "example@email.com";
 	document.getElementById("mensagem").placeholder = "Digite aqui sua mensagem...";
 }
@@ -360,3 +360,61 @@ window.addEventListener("load", verificaTema);
 
 // }
 // window.addEventListener("load", changeImage);
+
+function cellMask() 
+{
+	let tel = document.getElementById("celular").value;
+	tel = tel.slice(0,15);
+	document.getElementById("celular").value = tel;
+
+	let email = document.getElementById("email").value;
+	email = email.slice(0,30);
+	document.getElementById("email").value = email;
+
+	let nome = document.getElementById("nome").value;
+	nome = nome.slice(0,25);
+	document.getElementById("nome").value = nome;
+
+    if (tel[0] != "(") 
+    {
+        if (tel[0] != undefined)
+        {
+            document.getElementById("celular").value = "(" + tel[0];
+        }
+    }
+
+	if (tel[3] != ")") 
+    {
+        if (tel[3] != undefined)
+        {
+            document.getElementById("celular").value = tel.slice(0,3) + ")" + tel[3];
+        }
+    }
+
+
+	if (tel[4] != '9') 
+    {
+        if (tel[5] != undefined)
+        {
+            document.getElementById("celular").value = tel.slice(0,4) + '9' + tel[4];
+        }
+    }
+
+	if (tel[5] != ' ') 
+    {
+        if (tel[5] != undefined)
+        {
+            document.getElementById("celular").value = tel.slice(0,5) + ' ' + tel[5];
+        }
+    }
+
+	if (tel[10] != '-') 
+    {
+        if (tel[10] != undefined)
+        {
+            document.getElementById("celular").value = tel.slice(0,10) + '-' + tel[10];
+        }
+    }
+}
+
+window.addEventListener("input", cellMask);
