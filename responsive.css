@@ -112,11 +112,11 @@
 
 @media (max-width: 900px) {
     .title1 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .title2 {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     #containerAboutUs {
@@ -174,14 +174,17 @@
         margin-top: 10%;
     }
 
+    #ourServices {
+        width: 100%;
+    }
+
     #imgKeyboard {
         display: none;
     }
 
     #formulario {
-        width: 95%;
+        width: 100%;
         margin: 0;
-        margin-left: 2%;
     }
 
     .inputForm {
