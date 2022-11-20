@@ -7,7 +7,7 @@
         top: 40%;
         left: 50%;
         translate: -50%;
-        transform: translateY(-40%); 
+        transform: translateY(-40%);
     }
 }
 
@@ -86,7 +86,7 @@
 }
 
 @media (max-width: 1200px) {
-    #rodape{
+    #rodape {
         background-color: #1B2029;
         width: 100%;
         height: auto;
@@ -99,19 +99,18 @@
         gap: 50px;
     }
 
-    #logoRodape{
+    #logoRodape {
         width: 150px;
     }
 
-    #descricaoRodape{
+    #descricaoRodape {
         width: 90%;
     }
 }
 
 /*Renposividade main*/
 
-@media (max-width: 900px) 
-{
+@media (max-width: 900px) {
     .title1 {
         font-size: 20px;
     }
@@ -132,7 +131,12 @@
         width: 336px;
     }
 
-    #imgTextAboutUs {
+    #aboutUs1 {
+        width: 336px;
+        height: auto;
+    }
+    
+    #aboutUs2 {
         width: 336px;
         height: auto;
     }
@@ -142,12 +146,21 @@
         height: auto;
     }
 
-    #descricaoVerificacao {
-        width: 400px;
+    #descricao1 {
+        width: 350px;
         height: auto;
     }
 
-    #titleServices {
+    #descricao2 {
+        width: 350px;
+        height: auto;
+    }
+
+    #servicos1 {
+        width: 90%;
+    }
+
+    #servicos2 {
         width: 90%;
     }
 
@@ -177,6 +190,16 @@
     }
 
     #destaques {
+        display: flex;
+        justify-content: center;
+    }
+
+    #destaques1 {
+        width: 350px;
+        height: auto;
+    }
+    
+    #destaques2 {
         width: 350px;
         height: auto;
     }
@@ -186,7 +209,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }   
+    }
 
     #divLorem {
         width: 100%;
@@ -198,8 +221,7 @@
     }
 }
 
-/* @media (min-width: 1000px) and (max-width: 1200px) 
-{
+@media (min-width: 1000px) and (max-width: 1200px) {
     .title1 {
         font-size: 40px;
     }
@@ -220,7 +242,12 @@
         width: 336px;
     }
 
-    #imgTextAboutUs {
+    #aboutUs1 {
+        width: 336px;
+        height: auto;
+    }
+    
+    #aboutUs2 {
         width: 336px;
         height: auto;
     }
@@ -230,12 +257,21 @@
         height: auto;
     }
 
-    #descricaoVerificacao {
+    #descricao1 {
         width: 400px;
         height: auto;
     }
 
-    #titleServices {
+    #descricao2 {
+        width: 400px;
+        height: auto;
+    }
+
+    #servicos1 {
+        width: 90%;
+    }
+
+    #servicos2 {
         width: 90%;
     }
 
@@ -267,6 +303,8 @@
     #destaques {
         width: 350px;
         height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     #rodape {
@@ -274,7 +312,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }   
+    }
 
     #divLorem {
         width: 100%;
@@ -284,4 +322,4 @@
     #descricaoRodape {
         text-align: center;
     }
-} */
+}
