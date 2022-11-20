@@ -58,41 +58,62 @@
 
     <section>
         <div class="TitleAboutUs">
-            <h1 class="title1 title">MERCADO DE HARDWARE POR UMA</h1>
+            <h1 class="title1 title" id="mercadoDeHardware">MERCADO DE HARDWARE POR UMA</h1>
             <h1 class="title2 title">PERSPECTIVA QUE VOCÊ NUNCA VIU!</h1>
         </div>
 
         <div id="containerAboutUs">
             <img src="./front-end/global/img/hardware.png" width="auto" height="500px">
             <img src="./front-end/global/img/hardware2.png" width="auto" height="500px" id="imgHardware2">
-            <img src="./front-end/global/img/aboutUs.png" id="imgTextAboutUs">
+            <div id="imgTextAboutUs">
+                <img src="./front-end/global/img/aboutUs.png" id="aboutUs1">
+                <img src="./front-end/global/img/aboutUs2.png" id="aboutUs2">
+            </div>
         </div>
     </section>
 
     <section>
-        <img src="./front-end/global/img/informations.png" id="informations" width="100%">
+        <div id="informations">
+            <img src="./front-end/global/img/informations.png" width="100%" id="informacoes1">
+            <img src="./front-end/global/img/informations2.png" width="100%" id="informacoes2">
+        </div>
     </section>
 
     <!--Parte da Verificação da Empresa-->
     <section id="verificacao">
-        <div class="title1">Qualidade dos Produtos</div>
+        <div class="title1" id="qualidadeProdutos">Qualidade dos Produtos</div>
         <div class="title2">Verificado por Especialistas
             <img src="/front-end/global/img/iconeVerificado.png" width="40px">
         </div>
-        <img src="/front-end/global/img/descricaoVerificacao.png" id="descricaoVerificacao">
+        <div id="descricaoVerificacao">
+            <img src="/front-end/global/img/descricaoVerificacao.png" id="descricao1">
+            <img src="/front-end/global/img/descricaoVerificacao2.png" id="descricao2">
+        </div>
     </section>
     <!--/Parte da Verificação da Empresa-->
 
     <section class="TitleAboutUs">
-        <h1 class="title1">CONHEÇA NOSSOS</h1>
+        <h1 class="title1" id="conhecaNossos">CONHEÇA NOSSOS</h1>
         <h1 class="title2">FORNECEDORES!</h1>
-        <img src="./front-end/global/img/fornecedores.png" id="imgFornecedores" width="100%">
+        <div id="imgFornecedores">
+            <img src="./front-end/global/img/fornecedores.png" width="100%" id="fornecedores1">
+            <img src="./front-end/global/img/fornecedores2.png" width="100%" id="fornecedores2">
+        </div>
     </section>
 
     <section class="TitleAboutUs" id="ourServices">
-        <img src="./front-end/global/img/servicos.png" id="titleServices">
-        <img src="./front-end/global/img/services.png" id="servico">
-        <img src="./front-end/global/img/services2.png" id="services">
+        <div id="titleServices">
+            <img src="./front-end/global/img/servicos.png" id="servicos1">
+            <img src="./front-end/global/img/servicos2.png" id="servicos2">
+        </div>
+        <div id="servico">
+            <img src="./front-end/global/img/services.png" id="services1">
+            <img src="./front-end/global/img/services2.png" id="services2">
+        </div>
+        <div id="services">
+            <img src="./front-end/global/img/services3.png" id="services3">
+            <img src="./front-end/global/img/services4.png" id="services4">
+        </div>
     </section>
 
     <div id="sectionContato"></div>
@@ -112,7 +133,7 @@
                         <input type="text" name="" class="inputForm" id="nome">
 
                         <h1 class="inputTItle">Celular</h1>
-                        <input type="tel" name="" class="inputForm" id="celular">
+                        <input type="tel" name="" class="inputForm" id="celular" oninput="mask(this, mphone);" onblur="mask(this, mphone);">
 
                         <h1 class="inputTItle">Email</h1>
                         <input type="email" name="" class="inputForm" id="email">
@@ -134,36 +155,44 @@
         </form>
     </section>
 
-    <section class="TitleAboutUs" id="highlights"> 
-        <img src="./front-end/global/img/destaques.png" id="destaques">
+    <section class="TitleAboutUs" id="highlights">
+        <div id="destaques">
+            <img src="./front-end/global/img/destaques.png" id="destaques1">
+            <img src="./front-end/global/img/destaques2.png" id="destaques2">
+        </div>
 
         <!--Carousel de imagens-->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./front-end/global/img/produto1.png" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="./front-end/global/img/produto2.png" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="./front-end/global/img/produto3.png" class="d-block w-100">
-              </div>
+                <div class="carousel-item active">
+                    <img src="./front-end/global/img/produto1.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./front-end/global/img/produto2.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./front-end/global/img/produto3.png" class="d-block w-100">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
     </section>
 
 
@@ -179,7 +208,7 @@
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-facebook"></i>
             </div>
-            <button id="btnContate-nos">Contate-nos</button>
+            <button id="btnContate-nos" onclick="window.open('#sectionContato', '_self')">Contate-nos</button>
         </div>
         <div id="divLorem">
             <p id="descricaoRodape">Lorem Ipsum is simply dummy text of the printing
