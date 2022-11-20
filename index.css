@@ -37,7 +37,11 @@
     margin-top: 10%;
 }
 
-#imgTextAboutUs {
+#aboutUs1 {
+    margin-top: 10%;
+}
+
+#aboutUs2 {
     margin-top: 10%;
 }
 
@@ -195,6 +199,16 @@ form {
 }
 
 #destaques {
+    display: flex;
+    justify-content: center;
+}
+
+#destaques1 {
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+
+#destaques2 {
     margin-top: 12%;
     margin-bottom: 5%;
 }

@@ -56,8 +56,6 @@ function preenchimento() {
 }
 window.addEventListener("load", preenchimento);
 
-// Modo claro e escuro (teste)
-
 document.getElementById('lua').style.display = 'none';
 document.getElementById('sol').style.display = 'flex';
 
@@ -82,7 +80,27 @@ function mudarModo() {
 			document.getElementById('barras').style.color = '#A69256';
 			document.getElementById('home').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('produtos').style.setProperty("color", "#DAC072", "important");
-			document.getElementById('contato').style.setProperty("color", "#DAC072", "important");
+			document.getElementById('contato').style.setProperty("color", "#DAC072", "important"); 
+			document.getElementById('mercadoDeHardware').style.color = '#212529';
+			document.getElementById('aboutUs1').style.display = 'flex';
+			document.getElementById('aboutUs2').style.display = 'none';
+			document.getElementById('informacoes1').style.display = 'flex';
+			document.getElementById('informacoes2').style.display = 'none';
+			document.getElementById('qualidadeProdutos').style.color = '#212529';
+			document.getElementById('descricao1').style.display = 'flex';
+			document.getElementById('descricao2').style.display = 'none'; 
+			document.getElementById('conhecaNossos').style.color = '#212529';
+			document.getElementById('fornecedores1').style.display = 'flex';
+			document.getElementById('fornecedores2').style.display = 'none'; 
+			document.getElementById('servicos1').style.display = 'flex';
+			document.getElementById('servicos2').style.display = 'none'; 
+			document.getElementById('services1').style.display = 'flex';
+			document.getElementById('services2').style.display = 'none';
+			document.getElementById('services3').style.display = 'flex';
+			document.getElementById('services4').style.display = 'none';
+			document.getElementById('destaques1').style.display = 'flex';
+			document.getElementById('destaques2').style.display = 'none';
+			document.getElementById('rodape').style.backgroundColor = '#1B2029'; 
 		}
 		else {
 			document.getElementById('lua').style.display = 'none';
@@ -94,6 +112,26 @@ function mudarModo() {
 			document.getElementById('home').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('produtos').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('contato').style.setProperty("color", "#DAC072", "important");
+			document.getElementById('mercadoDeHardware').style.color = '#212529';
+			document.getElementById('aboutUs1').style.display = 'flex';
+			document.getElementById('aboutUs2').style.display = 'none';
+			document.getElementById('informacoes1').style.display = 'flex';
+			document.getElementById('informacoes2').style.display = 'none';
+			document.getElementById('qualidadeProdutos').style.color = '#212529';
+			document.getElementById('descricao1').style.display = 'flex';
+			document.getElementById('descricao2').style.display = 'none';
+			document.getElementById('conhecaNossos').style.color = '#212529';
+			document.getElementById('fornecedores1').style.display = 'flex';
+			document.getElementById('fornecedores2').style.display = 'none';
+			document.getElementById('servicos1').style.display = 'flex';
+			document.getElementById('servicos2').style.display = 'none';
+			document.getElementById('services1').style.display = 'flex';
+			document.getElementById('services2').style.display = 'none';
+			document.getElementById('services3').style.display = 'flex';
+			document.getElementById('services4').style.display = 'none';
+			document.getElementById('destaques1').style.display = 'flex';
+			document.getElementById('destaques2').style.display = 'none'; 
+			document.getElementById('rodape').style.backgroundColor = '#1B2029';
 		}
 	}
 	else {
@@ -114,6 +152,26 @@ function mudarModo() {
 			document.getElementById('produtos').style.setProperty("color", "white", "important");
 			document.getElementById('contato').style.setProperty("color", "white", "important");
 			document.getElementById('lua').style.setProperty("color", "white", "important");
+			document.getElementById('mercadoDeHardware').style.color = 'white';
+			document.getElementById('aboutUs1').style.display = 'none';
+			document.getElementById('aboutUs2').style.display = 'flex';
+			document.getElementById('informacoes1').style.display = 'none';
+			document.getElementById('informacoes2').style.display = 'flex';
+			document.getElementById('qualidadeProdutos').style.color = 'white';
+			document.getElementById('descricao1').style.display = 'none';
+			document.getElementById('descricao2').style.display = 'flex';
+			document.getElementById('conhecaNossos').style.color = 'white';
+			document.getElementById('fornecedores1').style.display = 'none';
+			document.getElementById('fornecedores2').style.display = 'flex';
+			document.getElementById('servicos1').style.display = 'none';
+			document.getElementById('servicos2').style.display = 'flex';
+			document.getElementById('services1').style.display = 'none';
+			document.getElementById('services2').style.display = 'flex';
+			document.getElementById('services3').style.display = 'none';
+			document.getElementById('services4').style.display = 'flex';
+			document.getElementById('destaques1').style.display = 'none';
+			document.getElementById('destaques2').style.display = 'flex'; 
+			document.getElementById('rodape').style.backgroundColor = '#182742';
 		}
 		else {
 			document.getElementById('lua').style.display = 'flex';
@@ -126,6 +184,26 @@ function mudarModo() {
 			document.getElementById('produtos').style.setProperty("color", "white", "important");
 			document.getElementById('contato').style.setProperty("color", "white", "important");
 			document.getElementById('lua').style.setProperty("color", "white", "important");
+			document.getElementById('mercadoDeHardware').style.color = 'white';
+			document.getElementById('aboutUs1').style.display = 'none';
+			document.getElementById('aboutUs2').style.display = 'flex';
+			document.getElementById('informacoes1').style.display = 'none';
+			document.getElementById('informacoes2').style.display = 'flex';
+			document.getElementById('qualidadeProdutos').style.color = 'white';
+			document.getElementById('descricao1').style.display = 'none';
+			document.getElementById('descricao2').style.display = 'flex';
+			document.getElementById('conhecaNossos').style.color = 'white';
+			document.getElementById('fornecedores1').style.display = 'none';
+			document.getElementById('fornecedores2').style.display = 'flex';
+			document.getElementById('servicos1').style.display = 'none';
+			document.getElementById('servicos2').style.display = 'flex';
+			document.getElementById('services1').style.display = 'none';
+			document.getElementById('services2').style.display = 'flex';
+			document.getElementById('services3').style.display = 'none';
+			document.getElementById('services4').style.display = 'flex';
+			document.getElementById('destaques1').style.display = 'none';
+			document.getElementById('destaques2').style.display = 'flex'; 
+			document.getElementById('rodape').style.backgroundColor = '#182742';
 		}
 	}
 	localStorage.setItem('valorIcone', icone)
@@ -145,6 +223,26 @@ function verificaTema() {
 			document.getElementById('home').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('produtos').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('contato').style.setProperty("color", "#DAC072", "important");
+			document.getElementById('mercadoDeHardware').style.color = '#212529';
+			document.getElementById('aboutUs1').style.display = 'flex';
+			document.getElementById('aboutUs2').style.display = 'none';
+			document.getElementById('informacoes1').style.display = 'flex';
+			document.getElementById('informacoes2').style.display = 'none';
+			document.getElementById('qualidadeProdutos').style.color = '#212529';
+			document.getElementById('descricao1').style.display = 'flex';
+			document.getElementById('descricao2').style.display = 'none';
+			document.getElementById('conhecaNossos').style.color = '#212529';
+			document.getElementById('fornecedores1').style.display = 'flex';
+			document.getElementById('fornecedores2').style.display = 'none';
+			document.getElementById('servicos1').style.display = 'flex';
+			document.getElementById('servicos2').style.display = 'none';
+			document.getElementById('services1').style.display = 'flex';
+			document.getElementById('services2').style.display = 'none';
+			document.getElementById('services3').style.display = 'flex';
+			document.getElementById('services4').style.display = 'none';
+			document.getElementById('destaques1').style.display = 'flex';
+			document.getElementById('destaques2').style.display = 'none'; 
+			document.getElementById('rodape').style.backgroundColor = '#1B2029';
 		}
 		else {
 			document.getElementById('lua').style.display = 'none';
@@ -156,6 +254,26 @@ function verificaTema() {
 			document.getElementById('home').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('produtos').style.setProperty("color", "#DAC072", "important");
 			document.getElementById('contato').style.setProperty("color", "#DAC072", "important");
+			document.getElementById('mercadoDeHardware').style.color = '#212529';
+			document.getElementById('aboutUs1').style.display = 'flex';
+			document.getElementById('aboutUs2').style.display = 'none';
+			document.getElementById('informacoes1').style.display = 'flex';
+			document.getElementById('informacoes2').style.display = 'none';
+			document.getElementById('qualidadeProdutos').style.color = '#212529';
+			document.getElementById('descricao1').style.display = 'flex';
+			document.getElementById('descricao2').style.display = 'none';
+			document.getElementById('conhecaNossos').style.color = '#212529';
+			document.getElementById('fornecedores1').style.display = 'flex';
+			document.getElementById('fornecedores2').style.display = 'none';
+			document.getElementById('servicos1').style.display = 'flex';
+			document.getElementById('servicos2').style.display = 'none';
+			document.getElementById('services1').style.display = 'flex';
+			document.getElementById('services2').style.display = 'none';
+			document.getElementById('services3').style.display = 'flex';
+			document.getElementById('services4').style.display = 'none';
+			document.getElementById('destaques1').style.display = 'flex';
+			document.getElementById('destaques2').style.display = 'none'; 
+			document.getElementById('rodape').style.backgroundColor = '#1B2029';
 		}
 	}
 	else {
@@ -170,6 +288,26 @@ function verificaTema() {
 			document.getElementById('produtos').style.setProperty("color", "white", "important");
 			document.getElementById('contato').style.setProperty("color", "white", "important");
 			document.getElementById('lua').style.setProperty("color", "white", "important");
+			document.getElementById('mercadoDeHardware').style.color = 'white';
+			document.getElementById('aboutUs1').style.display = 'none';
+			document.getElementById('aboutUs2').style.display = 'flex';
+			document.getElementById('informacoes1').style.display = 'none';
+			document.getElementById('informacoes2').style.display = 'flex';
+			document.getElementById('qualidadeProdutos').style.color = 'white';
+			document.getElementById('descricao1').style.display = 'none';
+			document.getElementById('descricao2').style.display = 'flex';
+			document.getElementById('conhecaNossos').style.color = 'white';
+			document.getElementById('fornecedores1').style.display = 'none';
+			document.getElementById('fornecedores2').style.display = 'flex';
+			document.getElementById('servicos1').style.display = 'none';
+			document.getElementById('servicos2').style.display = 'flex';
+			document.getElementById('services1').style.display = 'none';
+			document.getElementById('services2').style.display = 'flex';
+			document.getElementById('services3').style.display = 'none';
+			document.getElementById('services4').style.display = 'flex';
+			document.getElementById('destaques1').style.display = 'none';
+			document.getElementById('destaques2').style.display = 'flex'; 
+			document.getElementById('rodape').style.backgroundColor = '#182742';
 		}
 		else {
 			document.getElementById('lua').style.display = 'flex';
@@ -182,11 +320,46 @@ function verificaTema() {
 			document.getElementById('produtos').style.setProperty("color", "white", "important");
 			document.getElementById('contato').style.setProperty("color", "white", "important");
 			document.getElementById('lua').style.setProperty("color", "white", "important");
+			document.getElementById('mercadoDeHardware').style.color = 'white';
+			document.getElementById('aboutUs1').style.display = 'none';
+			document.getElementById('aboutUs2').style.display = 'flex';
+			document.getElementById('informacoes1').style.display = 'none';
+			document.getElementById('informacoes2').style.display = 'flex';
+			document.getElementById('qualidadeProdutos').style.color = 'white';
+			document.getElementById('descricao1').style.display = 'none';
+			document.getElementById('descricao2').style.display = 'flex';
+			document.getElementById('conhecaNossos').style.color = 'white';
+			document.getElementById('fornecedores1').style.display = 'none';
+			document.getElementById('fornecedores2').style.display = 'flex';
+			document.getElementById('servicos1').style.display = 'none';
+			document.getElementById('servicos2').style.display = 'flex';
+			document.getElementById('services1').style.display = 'none';
+			document.getElementById('services2').style.display = 'flex';
+			document.getElementById('services3').style.display = 'none';
+			document.getElementById('services4').style.display = 'flex';
+			document.getElementById('destaques1').style.display = 'none';
+			document.getElementById('destaques2').style.display = 'flex'; 
+			document.getElementById('rodape').style.backgroundColor = '#182742';
 		}
 	}
 }
 
 window.addEventListener("load", verificaTema);
+
+// function changeImage() {
+// 	var largura = window.screen.width;
+
+// 	if (largura <= 425) {
+// 		document.getElementById("services").style.display = "none";
+// 		document.getElementById("servico").style.display = "flex";
+// 	}
+// 	else {
+// 		document.getElementById("services").style.display = "flex";
+// 		document.getElementById("servico").style.display = "none";
+// 	}
+
+// }
+// window.addEventListener("load", changeImage);
 
 function cellMask() 
 {
